@@ -3,7 +3,8 @@ Docker-compose for ALM .NET 16
 
 Usage:
 1. git clone https://github.com/nikolaypeshev86/alm-qc.git
-2. docker-compose up -d
+2. cd alm-qc
+3. docker-compose up -d
 
 Access to ALM:
 
