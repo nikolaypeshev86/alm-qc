@@ -1,0 +1,14 @@
+version: "3"
+services:
+  alm:
+    depends_on:
+    - mssql
+    ports:
+    - 8080:8080
+    image: nikolaypeshev/alm:16
+    container_name: alm
+  mssql:
+    image: nikolaypeshev/alm_mssql:1.0
+    container_name: mssql
+    ports:
+      - 1433
