@@ -6,6 +6,7 @@ Usage:
 2. cd alm-qc
 3. docker-compose up -d
 
+-------------------------------------
 Access to ALM:
 
 URL: http://localhost:8080/qcbin
