@@ -1,10 +1,14 @@
 # alm-qc
 Docker-compose for ALM .NET 16
+
 Usage:
-git clone https://github.com/nikolaypeshev86/alm-qc.git
-docker-compose up -d
+1. git clone https://github.com/nikolaypeshev86/alm-qc.git
+2. docker-compose up -d
 
 Access to ALM:
-url: http://localhost:8080/qcbin
+
+URL: http://localhost:8080/qcbin
+
 username: admin
+
 password: P@ssw0rd
